@@ -1,0 +1,3 @@
+﻿  ConsoleApplication1.cpp
+new.obj : error LNK2005: "class std::vector<char,class std::allocator<char> > __cdecl charVector(class std::vector<char,class std::allocator<char> >)" (?charVector@@YA?AV?$vector@DV?$allocator@D@std@@@std@@V12@@Z) already defined in ConsoleApplication1.obj
+C:\Users\Vigne\OneDrive\Documents\Programing Master\Computer Science Class\Capstone\Capstone Simple Projects\Day2\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe : fatal error LNK1169: one or more multiply defined symbols found
