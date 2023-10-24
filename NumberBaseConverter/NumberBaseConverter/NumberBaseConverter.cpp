@@ -28,6 +28,7 @@ int main()
 
         cout << "Please enter the number:";
         cin >> input;
+        input.erase(remove(input.begin(), input.end(), ' '), input.end());
 
         if (hexOrDec == "1") {
             hexOrDec = "decimal";
@@ -41,9 +42,22 @@ int main()
 			cout << "Invalid input\n";
 			continue;
 		}
+        // if output % 4 != 0, add 0s to the front
+        while (output.length() % 4 != 0) {
+            output = "0" + output;
+        }
 
+        // Group the output into 4-bit chunks
+        string groupedOutput = "";
+        int length = output.length();
+        for (int i = 0; i < length; i++) {
+			groupedOutput += output[i];
+            if ((i + 1) % 4 == 0) {
+				groupedOutput += " ";
+			}
+		}
         // Output
-        cout << "The number you entered is " << input << " in " << hexOrDec << " and is " << output << " in binary\n";
+        cout << "The number you entered is " << input << " in " << hexOrDec << " and is " << groupedOutput << " in binary\n";
 
     }
   
