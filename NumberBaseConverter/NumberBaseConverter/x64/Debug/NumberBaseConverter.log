@@ -1,7 +1,3 @@
 ﻿  NumberBaseConverter.cpp
-  Source.cpp
-C:\Users\Vigne\OneDrive\Documents\Programing Master\Computer Science Class\Capstone\Capstone Simple Projects\NumberBaseConverter\NumberBaseConverter\Source.cpp(10,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Vigne\OneDrive\Documents\Programing Master\Computer Science Class\Capstone\Capstone Simple Projects\NumberBaseConverter\NumberBaseConverter\Source.cpp(33,25): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Vigne\OneDrive\Documents\Programing Master\Computer Science Class\Capstone\Capstone Simple Projects\NumberBaseConverter\NumberBaseConverter\Source.cpp(60,25): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
-  Generating Code...
+C:\Users\Vigne\OneDrive\Documents\Programing Master\Computer Science Class\Capstone\Capstone Simple Projects\NumberBaseConverter\NumberBaseConverter\NumberBaseConverter.cpp(52,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   NumberBaseConverter.vcxproj -> C:\Users\Vigne\OneDrive\Documents\Programing Master\Computer Science Class\Capstone\Capstone Simple Projects\NumberBaseConverter\x64\Debug\NumberBaseConverter.exe
