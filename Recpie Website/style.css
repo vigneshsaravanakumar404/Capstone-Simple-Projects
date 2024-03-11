@@ -1,8 +1,4 @@
-body {
-    background-color: lightblue;
-}
-
-/* Custom Scroll Bar code from geeks for geeks */
+/* Custom Scroll Bar code from https://www.geeksforgeeks.org/how-to-create-a-custom-scrollbar-using-css/ */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -14,6 +10,11 @@ body {
 ::-webkit-scrollbar-thumb {
     background-color: rgb(34, 160, 228);
 }
+
+body {
+    background-color: lightblue;
+}
+
 
 h1 {
     color: navy;
